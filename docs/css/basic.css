@@ -133,7 +133,16 @@ span.page-info {
   background-size: contain; }
 
 #how {
-  background-image: url("../img/what.jpg");
+  background-color: #efefef;
+  width: auto;
+  background-repeat: no-repeat; }
+
+#how img {
+  max-width: 100%;
+  padding: 10px; }
+
+#contact {
+  background-color: #fff;
   width: auto;
   background-repeat: no-repeat; }
 

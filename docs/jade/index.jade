@@ -3,9 +3,9 @@ html(lang='en')
   head
     meta(http-equiv='content-type', content='text/html; charset=UTF-8')
     meta(charset='utf-8')
-    title CDTPy - Supercharge Your Cohort
+    title Solid State Design - £48 Logos in 48 Hours
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    meta(name='description', content='Bespoke Python coding workshops for Centres for Doctoral Training')
+    meta(name='description', content='No nonsense. Graphic Design. £48 Logos in 48 hours. Simple.')
     link(href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css', rel='stylesheet')
     link(href="css/basic.css", rel="stylesheet")
     link(href="css/style.css", rel="stylesheet")
@@ -22,20 +22,31 @@ html(lang='en')
           .text-left
             include main.jade
 
-
     .container#why.full-height.vertical-center.parallax.right-bg
       .row
         .col.col-lg-offset-1.col-lg-10
           .text-left
             include why.jade
 
-
-
-    .container#contact.full-height.vertical-center
+    .container#how.full-height.vertical-center.headline
       .row
-        .col.col-lg-offset-2.col-lg-8
+        .col.col-lg-offset-1.col-lg-10
+          .text-left
+            include how.jade
+
+
+
+    .container#contact.full-height.vertical-center.headline
+      .row
+        .col.col-lg-offset-1.col-lg-10
           .text-left
             include contact.jade
+
+    .container#footer.full-height.vertical-center.headline
+      .row
+        .col.col-lg-offset-1.col-lg-10
+          .text-left
+            include footer.jade
 
     a(href='#main')
       #fixedbtn-up
